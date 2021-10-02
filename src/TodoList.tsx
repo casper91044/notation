@@ -1,17 +1,13 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
 import {FilterValuesType} from "./App";
 
-type TaskType = {
+export type TaskType = {
     id: string,
     title: string,
     isDone: boolean
 }
 
-export type TodoListType = {
-    id: string,
-    title: string,
-    filter: FilterValuesType
-}
+
 
 type PropsType = {
     id: string
